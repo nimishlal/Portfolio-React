@@ -17,25 +17,25 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0C4346] text-gray-300'>
-      <div>
+      <div className='shadow-lg shadow-[#AD9128] hover:scale-150 duration-500'>
         <img src={Logo} alt='Logo Image' style={{ width: '50px' }} />
       </div>
 
       {/* menu */}
       <ul className='hidden md:flex'>
-        <li>
+        <li className='shadow-lg shadow-[#AD9128] hover:scale-105 duration-500 pl-5'>
          <a href='/'>Home</a>
         </li>
-        <li>
+        <li className='shadow-lg shadow-[#AD9128] hover:scale-105 duration-500 pl-5'>
         <a href='/about'>About</a>
         </li>
-        <li>
+        <li className='shadow-lg shadow-[#AD9128] hover:scale-105 duration-500 pl-5'>
         <a href='/skills'>Skills</a>
         </li>
-        <li>
+        <li className='shadow-lg shadow-[#AD9128] hover:scale-105 duration-500 pl-5'>
         <a href='/work'>Work</a>
         </li>
-        <li>
+        <li className='shadow-lg shadow-[#AD9128] hover:scale-105 duration-500 pl-5'>
         <a href='/contact'>Contact</a>
         </li>
       </ul>
@@ -77,7 +77,7 @@ const Navbar = () => {
       {/* Social icons  */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 '>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/nimish-lal' target="_blank"
