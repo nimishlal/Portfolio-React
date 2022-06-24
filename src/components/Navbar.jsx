@@ -38,6 +38,9 @@ const Navbar = () => {
         <li className='shadow-lg shadow-[#AD9128] hover:scale-105 duration-500 pl-5'>
         <a href='/contact'>Contact</a>
         </li>
+        <li className='shadow-lg shadow-[#AD9128] hover:scale-105 duration-500 pl-5'>
+          <a href='/login'>Login</a>
+        </li>
       </ul>
 
       {/* Hamburger */}
